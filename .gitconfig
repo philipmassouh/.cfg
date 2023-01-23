@@ -1,0 +1,14 @@
+[user]
+	email = philipmassouh@gmail.com
+	name = Philip Massouh
+
+[alias]
+	a = add
+	b = branch
+	c = commit
+	cl = clone
+	co = checkout
+	m = merge
+	p = push
+	pu = pull
+	st = status

@@ -1,0 +1,9 @@
+# copy path of a file to clipboard
+function rpc() {
+	realpath $1 | xclip -rmlastnl -selection clipboard
+}
+
+# compare two checksums
+function checksum() {
+	echo $(cat $3) $2 | $1 --check
+}

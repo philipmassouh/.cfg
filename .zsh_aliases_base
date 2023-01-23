@@ -1,0 +1,6 @@
+alias cb="xclip -rmlastnl -selection clipboard"
+alias pwdc="pwd | cb"
+alias weather="curl -s https://wttr.in/costa_mesa | head -n-2"
+alias gitaliases="git config --get-regexp ^alias"
+alias ls="ls -hN --color=auto --group-directories-first"
+alias grep="grep --color=auto"
